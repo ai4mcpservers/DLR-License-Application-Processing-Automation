@@ -50,7 +50,7 @@ bash
 git clone https://github.com/ai4mcpservers/DLR-License-Application-Processing-Automation.git
 
 
-cd dlr-automation
+cd DLR-License-Application-Processing-Automation
 ```
 
 
