@@ -47,7 +47,9 @@ dlr-automation/
 ### Step 1: Clone the Repository
 bash
 ```bash
-git clone https://github.com/ai4mcpservers/dlr-automation.git
+git clone https://github.com/ai4mcpservers/DLR-License-Application-Processing-Automation.git
+
+
 cd dlr-automation
 ```
 
