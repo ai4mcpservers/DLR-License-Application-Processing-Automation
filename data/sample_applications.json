@@ -1,0 +1,129 @@
+{
+  "sample_applications": [
+    {
+      "application_id": "TDLR-2024-AC-12345",
+      "license_type": "Air Conditioning Contractor",
+      "submission_date": "2024-03-15",
+      "applicant_info": {
+        "name": "John Smith",
+        "business_name": "Smith HVAC Services",
+        "address": "123 Main St, Austin, TX 78701",
+        "phone": "(512) 555-0123",
+        "email": "john@smithhvac.com",
+        "years_in_business": 5
+      },
+      "documents_submitted": [
+        "Application Form TDLR-AC-001",
+        "Proof of Insurance - General Liability $1M",
+        "Background Check - Travis County Sheriff",
+        "Payment Receipt - $185 Application Fee",
+        "EPA 608 Universal Certification",
+        "NATE Certification"
+      ],
+      "work_experience": {
+        "years_experience": 8,
+        "previous_employers": ["ABC Cooling Services", "XYZ Mechanical"],
+        "current_certifications": ["EPA 608 Universal", "NATE Certified"],
+        "specialty_areas": ["Commercial HVAC", "Residential Service"]
+      },
+      "background_info": {
+        "criminal_history": "None reported",
+        "license_violations": "None",
+        "financial_history": "No bankruptcies or liens",
+        "references": ["Former employer ABC Cooling", "Customer testimonials"]
+      }
+    },
+    {
+      "application_id": "TDLR-2024-EL-67890",
+      "license_type": "Electrical Contractor",
+      "submission_date": "2024-03-20",
+      "applicant_info": {
+        "name": "Maria Garcia",
+        "business_name": "Garcia Electric LLC",
+        "address": "456 Oak Ave, Houston, TX 77001",
+        "phone": "(713) 555-0456",
+        "email": "maria@garciaelectric.com",
+        "years_in_business": 12
+      },
+      "documents_submitted": [
+        "Application Form TDLR-EL-001",
+        "Proof of Insurance - General Liability $2M",
+        "Background Check - Harris County Sheriff",
+        "Payment Receipt - $220 Application Fee"
+      ],
+      "work_experience": {
+        "years_experience": 15,
+        "previous_employers": ["Major Electric Corp", "City of Houston"],
+        "current_certifications": ["Master Electrician", "OSHA 30"],
+        "specialty_areas": ["Industrial Electrical", "Code Compliance"]
+      },
+      "background_info": {
+        "criminal_history": "None reported",
+        "license_violations": "None",
+        "financial_history": "Excellent business credit",
+        "references": ["Former supervisor at City of Houston", "Commercial clients"]
+      }
+    },
+    {
+      "application_id": "TDLR-2024-SG-11111",
+      "license_type": "Security Guard",
+      "submission_date": "2024-03-22",
+      "applicant_info": {
+        "name": "Robert Johnson",
+        "business_name": null,
+        "address": "789 Pine St, Dallas, TX 75201",
+        "phone": "(214) 555-0789",
+        "email": "rjohnson@email.com",
+        "years_in_business": 0
+      },
+      "documents_submitted": [
+        "Application Form TDLR-SG-001",
+        "Payment Receipt - $50 Application Fee"
+      ],
+      "work_experience": {
+        "years_experience": 2,
+        "previous_employers": ["US Army Military Police", "Mall Security"],
+        "current_certifications": ["First Aid/CPR"],
+        "specialty_areas": ["Loss Prevention", "Access Control"]
+      },
+      "background_info": {
+        "criminal_history": "DUI 2019 (disclosed)",
+        "license_violations": "None",
+        "financial_history": "No issues reported",
+        "references": ["Former Army supervisor", "Previous security employer"]
+      }
+    }
+  ],
+  "test_scenarios": [
+    {
+      "scenario_name": "incomplete_application",
+      "description": "Application missing critical documents",
+      "modifications": {
+        "documents_submitted": ["Application Form Only"],
+        "expected_outcome": "Request additional documentation"
+      }
+    },
+    {
+      "scenario_name": "high_risk_background",
+      "description": "Applicant with concerning criminal history",
+      "modifications": {
+        "background_info": {
+          "criminal_history": "Felony theft conviction 2020",
+          "license_violations": "Previous license suspended 2021"
+        },
+        "expected_outcome": "Escalate for management review"
+      }
+    },
+    {
+      "scenario_name": "expedited_processing",
+      "description": "Complete application from experienced professional",
+      "modifications": {
+        "work_experience": {
+          "years_experience": 20,
+          "current_certifications": ["Master Level", "Instructor Certified"]
+        },
+        "expected_outcome": "Fast-track approval"
+      }
+    }
+  ]
+}
