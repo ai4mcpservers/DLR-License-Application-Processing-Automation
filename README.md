@@ -130,7 +130,7 @@ python
 
 ```python
 BASE_PATTERN = """
-You are an expert Texas Department of Licensing and Regulation (TDLR) application reviewer.
+You are an expert Department of Licensing and Regulation (DLR) application reviewer.
 
 ROLE: {role}
 TASK: {task}
@@ -180,7 +180,7 @@ python
 
 ```python
 RISK_ASSESSMENT_PATTERN = """
-Analyze this application for potential risks based on TDLR guidelines.
+Analyze this application for potential risks based on DLR guidelines.
 
 RISK FACTORS:
 - Criminal background issues
@@ -362,7 +362,7 @@ python src/test_suite.py --report
 This portfolio demonstrates real-world prompt engineering best practices:
 
 1.  **Iterative Design**: Prompts evolved through 15+ iterations
-2.  **Stakeholder Feedback**: Incorporated input from TDLR staff
+2.  **Stakeholder Feedback**: Incorporated input from DLR staff
 3.  **Performance Optimization**: Balanced accuracy vs. processing speed
 4.  **Ethical Considerations**: Fair processing regardless of applicant background
 
@@ -370,7 +370,7 @@ This portfolio demonstrates real-world prompt engineering best practices:
 
 ### 📈 Future Enhancements
 
--   **Integration with TDLR's existing database systems**
+-   **Integration with DLR's existing database systems**
 -   **Mobile app for real-time application status**
 -   **Predictive analytics for license approval likelihood**
 -   **Automated renewal processing**
