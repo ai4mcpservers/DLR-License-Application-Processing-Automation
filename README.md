@@ -58,7 +58,7 @@ cd dlr-automation
 bash
 ```bash
 # Create virtual environment
-python -m venv tdlr-env
+python -m venv dlr-env
 
 # Activate virtual environment
 tdlr-env\Scripts\activate
@@ -68,7 +68,7 @@ tdlr-env\Scripts\activate
 **For macOS/Linux:**
 
     # Create virtual environment
-    python3 -m venv tdlr-env
+    python3 -m venv dlr-env
     
     # Activate virtual environment
     source tdlr-env/bin/activate
