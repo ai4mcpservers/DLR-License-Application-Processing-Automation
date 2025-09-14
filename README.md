@@ -11,7 +11,7 @@ This project demonstrates advanced prompt engineering techniques to solve a crit
 
 ### 🏗️ Project Structure
 ```
-texas-tdlr-automation/
+dlr-automation/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
@@ -130,7 +130,7 @@ python
 
 ```python
 BASE_PATTERN = """
-You are an expert Department of Licensing and Regulation (DLR) application reviewer.
+You are an expert Texas Department of Licensing and Regulation (TDLR) application reviewer.
 
 ROLE: {role}
 TASK: {task}
