@@ -11,7 +11,7 @@ This project demonstrates advanced prompt engineering techniques to solve a crit
 
 ### 🏗️ Project Structure
 ```
-dlr-automation/
+DLR-License-Application-Processing-Automation/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
