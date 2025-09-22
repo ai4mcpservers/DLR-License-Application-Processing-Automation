@@ -102,7 +102,7 @@ Edit `.env` file and add your OpenAI API key:
 
 ```
 OPENAI_API_KEY=sk-your-actual-api-key-here
-MODEL_NAME=gpt-4
+MODEL_NAME=gpt-4.1-mini
 MAX_TOKENS=2000
 TEMPERATURE=0.1
 ```
