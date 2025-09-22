@@ -73,7 +73,7 @@ tdlr-env\Scripts\activate
     python3 -m venv dlr-env
     
     # Activate virtual environment
-    source tdlr-env/bin/activate
+    source dlr-env/bin/activate
 
 
 ### Step 3: Install Dependencies
