@@ -63,7 +63,7 @@ bash
 python -m venv dlr-env
 
 # Activate virtual environment
-tdlr-env\Scripts\activate
+dlr-env\Scripts\activate
 ```
 
 
